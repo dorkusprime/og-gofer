@@ -29,7 +29,7 @@ The response is a JSON object with a top-level `success` boolean, and a nested `
 If everything goes well, `success` will be `true`, and the payload will contain an `ogTags` dictionary, as well as a tag counter,  `tagsFound`, and a unique tag counter, `uniqueTagsFound`.
 
 ```json
-> http http://localhost:3000/?url=https://www.nytimes.com/2017/11/28/us/politics/republicans-tax-bill-senate.html
+> http https://og-gofer.herokuapp.com/?url=https://www.nytimes.com/2017/11/28/us/politics/republicans-tax-bill-senate.html
 
 {
     "payload": {
