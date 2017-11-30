@@ -40,7 +40,7 @@ func getOgTag(token html.Token) (ok bool, property string, content string) {
 				if content != "" {
 					ok = true
 				}
-				property = strings.Replace(a.Val, "og:", "", 1)
+				property = a.Val
 			}
 		case "content":
 			if property != "" {
