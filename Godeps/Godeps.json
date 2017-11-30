@@ -1,0 +1,18 @@
+{
+	"ImportPath": "github.com/dorkusprime/og-gofer",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "6dc0abcce25682504770fa9a7a6705bbfdebfa48"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "6dc0abcce25682504770fa9a7a6705bbfdebfa48"
+		}
+	]
+}
