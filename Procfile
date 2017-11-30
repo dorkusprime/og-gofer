@@ -1,1 +1,1 @@
-web: $GOPATH/bin/og-gofer
+web: ls /app/bin/
