@@ -1,1 +1,1 @@
-web: og-gofer
+web: $GOPATH/bin/og-gofer
