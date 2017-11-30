@@ -56,7 +56,7 @@ func scrape(url string) (ogTags map[string][]string, err error) {
 		token_type := tokenizer.Next()
 		if token_type == html.ErrorToken {
 			break
-		} else if token_type == html.StartTagToken {
+		} else if token_type == html.StartTagToken || token_type == html.SelfClosingTagToken {
 			token := tokenizer.Token()
 			if token.Data == "meta"  {
 				ok, property, content := getOgTag(token)
