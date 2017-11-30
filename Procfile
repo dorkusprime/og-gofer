@@ -1,1 +1,1 @@
-web: echo $GOPATH
+web: og-gopher
