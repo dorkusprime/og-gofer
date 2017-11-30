@@ -29,7 +29,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	query := r.URL.Query()
 
-	responseObject := ogGopher.Gofer(strings.Join(query["url"], ""))
+	responseObject := ogGofer.Gofer(strings.Join(query["url"], ""))
 	response, _ := json.Marshal(responseObject)
 
 	w.Write(response)

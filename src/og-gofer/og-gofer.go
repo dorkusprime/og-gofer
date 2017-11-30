@@ -1,4 +1,4 @@
-package ogGopher
+package ogGofer
 
 import (
 	"fmt"
