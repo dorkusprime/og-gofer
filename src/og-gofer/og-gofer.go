@@ -57,7 +57,6 @@ func getOgTag(token html.Token) (ok bool, property string, content string) {
 func scrape(url string) (ogTags map[string][]string, err error) {
 	ogTags = make(map[string][]string)
 
-	fmt.Println("GETTING")
 	response, err := http.Get(url)
 
 	if err != nil {
@@ -68,10 +67,6 @@ func scrape(url string) (ogTags map[string][]string, err error) {
 		return
 	}
 	defer response.Body.Close()
-
-	defer func() {
-		fmt.Println("GOT.")
-	}()
 
 	tokenizer := html.NewTokenizer(response.Body)
 	for {
