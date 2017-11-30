@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"fmt"
 	"strings"
-	"github.com/dorkusprime/og-gofer/og-gofer"
+	"github.com/dorkusprime/og-gofer/src/og-gofer"
 	"os"
 )
 
