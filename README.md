@@ -1,7 +1,7 @@
 # OG Gofer
 Retrieves the embedded OpenGraph metadata for a given url, and returns it in a friendly JSON format
 
-I've deployed the server for testing purposes at [og-gofer.herokuapp.com](https://og-gofer.herokuapp.com/), but you can also deploy it to your own Heroku instance by clicking here:
+It's deployed for testing purposes at [og-gofer.herokuapp.com](https://og-gofer.herokuapp.com/), but you can also deploy it to your own Heroku instance by clicking here:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
