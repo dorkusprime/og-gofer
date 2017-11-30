@@ -1,0 +1,10 @@
+{
+  "name": "OG Gofer",
+  "description": "Retrieves the embedded OpenGraph metadata for a given url, and returns it in a friendly JSON format",
+  "keywords": [
+    "OpenGraph",
+    "scraper"
+  ],
+  "addons": [],
+  "env": {}
+}
