@@ -1,1 +1,1 @@
-web: ls /app/bin
+web: /app/bin/og-gofer
