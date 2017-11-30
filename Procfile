@@ -1,1 +1,1 @@
-web: og-gopher
+web: ls /app/bin
